@@ -1,0 +1,45 @@
+.location {
+    background-color: #062226;
+    padding: 2em 4em;
+    border-radius: 0.7em;
+    width: 100vw;
+   
+}
+
+.location__title {
+    font-size: 1.8em;
+    text-align: center;
+    margin-bottom: 0.4em;
+    color: rgb(78, 208, 78);
+}
+
+.location__list {
+  
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Crea tres columnas con igual ancho */
+    gap: 10px; /* Espaciado entre elementos */
+    list-style: none; /* Elimina los puntos de la lista */
+    padding: 0; 
+}
+
+.location__item {
+    
+    padding: 10px; /* Espaciado interno de los elementos */
+    border-radius: 5px; /* Bordes redondeados */
+    text-align: center;
+}
+
+.location__label {
+    color: #fff;
+    font-weight: 400;
+    font-size:1.2em;
+}
+
+.location__value {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Crea tres columnas con igual ancho */
+    gap: 2em; /* Espaciado entre elementos */
+    color: grey;
+    font-weight: 500;
+    
+}

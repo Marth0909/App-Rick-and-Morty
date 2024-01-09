@@ -1,0 +1,86 @@
+.resident__container {
+    display: flex;
+    flex-wrap: wrap;   /*si hay espacio suficinete hecha abajo el contenido cuando no cabe a lo ancho o queda muy encimado*/
+    justify-content: center;
+    gap: 2em;
+}
+
+ 
+   
+
+   
+  .background {
+    background-image: url('https://www.silenzine.com/wp-content/uploads/2017/06/rick-morty-header.jpg'); 
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    margin-bottom: 2em;
+    background-repeat: no-repeat;
+    
+  } 
+
+  .form-container {
+    /* box-sizing: border-box;
+    text-align: center;
+    background-color:#062226;
+    padding: 10px; 
+    
+    border-radius: 5px;  */
+    background-color: #062226;
+    padding: 1.5em 1em;
+    border-radius: 0.7em;
+    max-width: 25em;
+    width: 100%;
+
+  }
+  .input-field,
+  .input-field {
+    width: 20em;
+    height: 3em;
+    padding: 15px;
+    margin-right: 0px; 
+    border: 1px solid #ccc;
+    border-radius: 5px; 
+    box-sizing: border-box;
+  }
+
+  .search-button {
+    
+    background-color: rgb(54, 162, 54);
+    color: white;
+    font-weight: bold;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+ 
+
+/* .background {
+    position: relative;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    overflow: hidden; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+  }
+  .background::before {
+    content: "";
+    background-image: url('https://www.silenzine.com/wp-content/uploads/2017/06/rick-morty-header.jpg');
+    background-size: 100% 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  
+  } */
+  
+  
+  
